@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS TRANSACTIONHISTORY;
+
+CREATE TABLE TRANSACTIONHISTORY (
+  instrument VARCHAR(250),
+  amount integer ,
+  txntime numeric
+);
+
+insert into TRANSACTIONHISTORY
+values('IBM',143.82, 14781);
